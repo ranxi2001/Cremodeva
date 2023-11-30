@@ -5,23 +5,7 @@ BC4AI：Blockchain Used to Guarantee Credibility of AI Model Evaluations
 
 这个项目的目的是实现算法模型的可信度保障，包括测试结果的真实性，保障论文模型的效果是真实可信的。
 
-## 项目初期
-
-### 参考文献
-
-[1] 冯晨. 基于区块链的可信深度学习隐私保护方案研究[D]. 福建师范大学, 2021.
-
-[2] 卢浩文. 基于图像匹配和区块链存储的大仪实验可信度研究[D]. 杭州电子科技大学, 2023.
-
-[3] Jiang R, Li J, Bu W, et al. A Blockchain-Based Trustworthy Model Evaluation Framework for Deep Learning and Its Application in Moving Object Segmentation[J]. Sensors, 2023, 23(14): 6492.
-
-[4] Wang T, Du M, Wu X, 等. An Analytical Framework for Trusted Machine Learning and Computer Vision Running With Blockchain[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2020: 6-7.
-
-[5] Shafay M, Ahmad R W, Salah K, et al. Blockchain for deep learning: review and open challenges[J]. Cluster Computing, 2023, 26(1): 197-221.
-
-[6] Weng J, Weng J, Zhang J, 等. DeepChain: Auditable and Privacy-Preserving Deep Learning with Blockchain-Based Incentive[J]. IEEE Transactions on Dependable and Secure Computing, 2021, 18(5): 2438-2455.
-
-[7] Goel A, Agarwal A, Vatsa M, 等. DeepRing: Protecting Deep Neural Network With Blockchain[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2019: 0-0.
+## 项目目标
 
 ### 项目思路
 
@@ -50,3 +34,39 @@ BC4AI：Blockchain Used to Guarantee Credibility of AI Model Evaluations
 6. **多次测试取平均值数据认证**：
    - 进行多次模型测试以获取更准确和可靠的评估结果。
    - 通过平均值或其他统计方法提高数据的可信度。
+
+### 参考文献
+
+> [1] 冯晨. 基于区块链的可信深度学习隐私保护方案研究[D]. 福建师范大学, 2021.
+>
+> [2] 卢浩文. 基于图像匹配和区块链存储的大仪实验可信度研究[D]. 杭州电子科技大学, 2023.
+>
+> [3] Jiang R, Li J, Bu W, et al. A Blockchain-Based Trustworthy Model Evaluation Framework for Deep Learning and Its Application in Moving Object Segmentation[J]. Sensors, 2023, 23(14): 6492.
+>
+> [4] Wang T, Du M, Wu X, 等. An Analytical Framework for Trusted Machine Learning and Computer Vision Running With Blockchain[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2020: 6-7.
+>
+> [5] Shafay M, Ahmad R W, Salah K, et al. Blockchain for deep learning: review and open challenges[J]. Cluster Computing, 2023, 26(1): 197-221.
+>
+> [6] Weng J, Weng J, Zhang J, 等. DeepChain: Auditable and Privacy-Preserving Deep Learning with Blockchain-Based Incentive[J]. IEEE Transactions on Dependable and Secure Computing, 2021, 18(5): 2438-2455.
+>
+> [7] Goel A, Agarwal A, Vatsa M, 等. DeepRing: Protecting Deep Neural Network With Blockchain[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2019: 0-0.
+
+## 项目计划
+
+### 初期工作[12月底]
+
+#### 1.技术选型+技术学习
+
+**开发工具**：`Vscode`+`HardHat`+`Node.js`
+
+**编程语言**：`Solidity`+`Python`+`JavaScript`
+
+
+
+### 中期工作[2月底]
+
+
+
+### 后期工作[4月底]
+
+1. 毕业论文撰写
