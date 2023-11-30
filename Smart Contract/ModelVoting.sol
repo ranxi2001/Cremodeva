@@ -22,16 +22,16 @@ contract ModelVoting {
         experts = _experts;
     }
 
-    // 提交模型
-    function submitModel(string memory _ipfsHash) public {
-        models.push(Model({
-            ipfsHash: _ipfsHash,
-            submitter: msg.sender,
-            yesVotes: 0,
-            noVotes: 0
-        }));
-        emit ModelSubmitted(models.length - 1, _ipfsHash, msg.sender);
-    }
+    // // 提交模型
+    // function submitModel(string memory _ipfsHash) public {
+    //     models.push(Model({
+    //         ipfsHash: _ipfsHash,
+    //         submitter: msg.sender,
+    //         yesVotes: 0,
+    //         noVotes: 0
+    //     }));
+    //     emit ModelSubmitted(models.length - 1, _ipfsHash, msg.sender);
+    // }
 
     // 投票
     function vote(uint256 _modelId, bool _vote) public {
